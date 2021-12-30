@@ -1,0 +1,604 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,200italic);
+
+$dosis: "Dosis", sans-serif;
+$black: #00a2e2;
+$white: #ffffff;
+$grey: #ebebeb;
+$seafoam: #b1ebef;
+body {
+    margin-top: 25px;
+    background-color: rgb(152, 231, 159);
+    #container {
+        text-align: center;
+        .title {
+            .snow-bros li {
+                width: 80px;
+                height: 80px;
+                margin: 15px;
+                background-repeat: no-repeat;
+                display: inline-block;
+            }
+            .snow-bros li.a {
+                background-image: linear-gradient(to left, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to top, #3d060a, #3d060a), linear-gradient(to left, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(to top, #3d060a 10px, #00a2e2 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to top, #3d060a, #3d060a);
+                background-size: 50px 10px, 30px 70px, 10px 10px, 20px 10px, 20px 20px, 10px 80px, 20px 60px, 10px 60px;
+                background-position: 10px 0px, 0px 10px, 40px 10px, 50px 10px, 30px 30px, 30px 0px, 50px 20px, 70px 20px;
+            }
+            .snow-bros li.c {
+                background-image: linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 20px,
+                        #09c5d8 20px,
+                        #09c5d8 30px,
+                        #00a2e2 30px
+                    ),
+                    linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(to left, #3d060a 10px, #00a323 10px),
+                    linear-gradient(to left, #3d060a 10px, #00a323 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(to top, #3d060a, #3d060a);
+                background-size: 10px 60px, 20px 80px, 40px 10px, 10px 10px, 30px 10px, 30px 10px, 40px 10px, 20px 10px,
+                    10px 80px;
+                background-position: 0px 10px, 10px 0px, 30px 0px, 40px 10px, 50px 10px, 50px 50px, 30px 60px, 40px 70px,
+                    30px 0px;
+            }
+            .snow-bros li.e {
+                background-image: linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(to left, #3d060a 10px, #00a323 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(to top, #3d060a, #3d060a);
+                background-size: 30px 80px, 50px 10px, 50px 10px, 50px 10px, 50px 10px, 50px 10px, 50px 10px, 10px 80px;
+                background-position: 0px 0px, 30px 0px, 40px 10px, 30px 30px, 40px 40px, 30px 60px, 40px 70px, 30px 0px;
+            }
+            .g {
+                background-image: linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 20px,
+                        #09c5d8 20px,
+                        #09c5d8 30px,
+                        #00a2e2 30px
+                    ),
+                    linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(to top, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(to top, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to top, #3d060a 10px, #00a323 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(to top, #3d060a, #3d060a);
+                background-size: 10px 60px, 20px 80px, 40px 10px, 10px 10px, 20px 20px, 10px 20px, 20px 50px, 20px 20px,
+                    10px 70px, 10px 80px;
+                background-position: 0px 10px, 10px 0px, 30px 0px, 40px 10px, 50px 10px, 40px 30px, 50px 30px, 30px 60px,
+                    70px 10px, 30px 0px;
+            }
+            .k {
+                background-image: linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px), linear-gradient(to top, #09c5d8, #09c5d8),
+                    linear-gradient(to top, #00a323, #00a323), linear-gradient(to right, #3d060a 10px, #00a323 10px),
+                    linear-gradient(to top, #3d060a, #3d060a), linear-gradient(to top, #3d060a, #3d060a);
+                background-size: 30px 80px, 30px 10px, 30px 10px, 30px 10px, 20px 10px, 20px 10px, 20px 10px, 30px 10px,
+                    10px 80px, 30px 10px;
+                background-position: 0px 0px, 50px 0px, 40px 10px, 30px 20px, 30px 30px, 30px 40px, 40px 50px, 40px 60px,
+                    30px 0px, 50px 70px;
+            }
+            .m {
+                background-image: linear-gradient(to left, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to bottom, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(to top, #3d060a 10px, #00a2e2 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to top, #3d060a, #3d060a);
+                background-size: 30px 10px, 30px 70px, 10px 30px, 10px 30px, 10px 40px, 20px 80px, 10px 80px;
+                background-position: 0px 0px, 0px 10px, 30px 10px, 40px 10px, 30px 40px, 50px 0px, 70px 0px;
+            }
+            .n {
+                background-image: linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to bottom, #00a2e2 20px, #3d060a 20px),
+                    linear-gradient(to bottom, #00a2e2 10px, #09c5d8 10px, #09c5d8 20px, #3d060a 20px),
+                    linear-gradient(
+                        to top,
+                        #3d060a 10px,
+                        #00a323 10px,
+                        #00a323 30px,
+                        #09c5d8 30px,
+                        #09c5d8 40px,
+                        #00a2e2 40px
+                    ),
+                    linear-gradient(to top, #3d060a, #3d060a);
+                background-size: 20px 80px, 10px 70px, 10px 60px, 10px 30px, 20px 80px, 10px 80px;
+                background-position: 0px 0px, 20px 10px, 30px 20px, 40px 30px, 50px 0px, 70px 0px;
+            }
+
+            .s {
+                background-image: linear-gradient(to left, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(to right, #3d060a 10px, #00a2e2 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(to top, #3d060a, #3d060a), linear-gradient(to right, #3d060a 10px, #00a2e2 10px),
+                    linear-gradient(to left, #3d060a 10px, #00a2e2 10px), linear-gradient(to top, #3d060a, #3d060a),
+                    linear-gradient(to left, #3d060a 10px, #09c5d8 10px),
+                    linear-gradient(to left, #3d060a 10px, #00a323 10px),
+                    linear-gradient(to left, #3d060a 10px, #00a323 10px),
+                    linear-gradient(to right, #3d060a 10px, #00a323 10px),
+                    linear-gradient(to left, #3d060a 10px, #00a323 10px), linear-gradient(to top, #3d060a, #3d060a);
+                background-size: 60px 10px, 40px 20px, 30px 10px, 10px 10px, 30px 10px, 30px 10px, 40px 10px, 40px 10px,
+                    30px 10px, 40px 10px, 30px 10px, 30px 10px, 40px 10px, 60px 10px;
+                background-position: 10px 0px, 0px 10px, 40px 10px, 70px 10px, 50px 20px, 0px 30px, 30px 30px, 10px 40px,
+                    50px 40px, 0px 50px, 50px 50px, 0px 60px, 30px 60px, 10px 70px;
+            }
+        }
+        .img-baby-g-about {
+            width: 100%;
+            height: 327px;
+            animation: animateCloud 34s linear infinite;
+            background-image: url('../img/1.png');
+            background-repeat: repeat-x;
+            background-position:0 0;
+          }
+              
+          @keyframes animateCloud  {0% {background-position: 0 0;}100% {background-position: 1280px 0;}}
+        #startGame {
+            display: none;
+
+            #canvas {
+                background-color: #ccc;
+                box-shadow: #86c1d8 20px 10px 50px;
+                border: solid 5px #00a2e2;
+                float: left;
+                margin-left: 8%;
+            }
+            #results {
+                box-shadow: #86c1d8 20px 10px 50px;
+                background: #ccc;
+                border: 5px #00a2e2 solid;
+                height: 400px;
+                left: 994px;
+                position: absolute;
+                top: 155px;
+                width: 150px;
+                text-transform: uppercase;
+                img {
+                    border: 0px;
+                    cursor: pointer;
+                }
+                img#play {
+                    cursor: pointer;
+                    display: none;
+                    margin: 23px 20px 0px 20px;
+                    width: 32px;
+                    height: 32px;
+                }
+                img#pause {
+                    cursor: pointer;
+                    display: inline;
+                    margin: 23px 20px 0px 20px;
+                }
+                img#stop {
+                    cursor: pointer;
+                    display: inline;
+                    margin: 20px 20px 0px 20px;
+                }
+                img#pause-info {
+                    display: none;
+                    height: 450px;
+                    left: 1px;
+                    position: absolute;
+                    top: 1px;
+                    width: 450px;
+                }
+                img#game-over {
+                    display: none;
+                    height: 450px;
+                    left: 1px;
+                    position: absolute;
+                    top: 1px;
+                    width: 450px;
+                }
+                h1 {
+                    color: #555;
+                    font-size: 27px;
+                    margin: 0 auto;
+                    text-align: center;
+                    padding: 20px 0px;
+                }
+                h2 {
+                    background: #09c5d8;
+                    border-bottom: 1px #888 solid;
+                    border-top: 1px #888 solid;
+                    clear: both;
+                    color: #555;
+                    font-size: 15px;
+                    margin: 0 auto;
+                    text-align: center;
+                    padding: 10px 0px;
+                    .next {
+                        margin: 20px auto 0 auto;
+                        text-align: center;
+                        padding: 10px 0px;
+                    }
+                }
+
+                p {
+                    color: #555;
+                    clear: both;
+                    font-size: 12px;
+                    margin: 0 0 0 15px;
+                    text-align: left;
+                    padding: 21px 0px 0px 0px;
+                    width: 130px;
+                }
+                p strong {
+                    display: block;
+                    font-size: 12px;
+                    float: left;
+                    font-weight: bold;
+                    width: 50px;
+                }
+            }
+        }
+        #menu {
+            // cursor: pointer;
+            // display: inline-grid;
+            // margin: 150px;
+            // margin-left: -320px;
+            // background: #ccc;
+            // border: 5px #00a2e2 solid;
+            height: 130px;
+            left: 994px;
+            position: inherit;
+            // top: 155px;
+            // width: 200px;
+            text-transform: uppercase;
+            #start {
+                .btn {
+                    background: transparent;
+                    text-align: center;
+                    letter-spacing: 1px;
+                    font-size: 1.4em;
+                    line-height: 1.2em;
+                    font-weight: 300;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    width: 200px;
+                    height: 20px;
+                    padding: 20px 0;
+                    border: 1px solid #00a2e2;
+                    overflow: hidden;
+                    display: inline-block;
+                    transition: all 0.5s;
+                    box-shadow: 0px 3px 0px #00a2e2;
+                    border-radius: 4px;
+                }
+
+                .btn:hover,
+                .btn:active {
+                    text-decoration: none;
+                    color: #fff;
+                    border-color: #00a2e2;
+                    background: #00a2e2;
+                    box-shadow: 0 0 0 #00a2e2;
+                }
+
+                .btn-label {
+                    display: inline-block;
+                    position: relative;
+                    padding-right: 0;
+                    transition: padding-right 0.5s;
+                    color: #363858;
+                    font-family: "Exo 2", sans-serif;
+                    font-weight: 200;
+                }
+                .btn-label:after {
+                    content: "";
+                    position: absolute;
+                    right: -50px;
+                    opacity: 0;
+                    top: 22%;
+                    width: 10px;
+                    height: 10px;
+                    margin-right: -10px;
+                    background: rgba(0, 0, 0, 0);
+                    border: 3px solid #fff;
+                    border-top: none;
+                    border-right: none;
+                    transition: opacity 0.5s, top 0.5s, right 0.5s;
+                    transform: rotate(225deg);
+                }
+
+                .btn:hover .btn-label,
+                .btn:active .btn-label {
+                    padding-right: 30px;
+                    color: #f5f1e7;
+                }
+
+                .btn:hover .btn-label:after,
+                .btn:active .btn-label:after {
+                    transition: opacity 0.5s, top 0.5s, right 0.5s;
+                    opacity: 1;
+                    right: 10px;
+                    top: 22%;
+                }
+            }
+        }
+        #level_show {
+            cursor: pointer;
+            display: none;
+            margin: 150px;
+            margin-left: -320px;
+            // background: #ccc;
+            // border: 5px #00a2e2 solid;
+            // height: 130px;
+            left: 994px;
+            position: absolute;
+            top: 70px;
+            // width: 200px;
+            text-transform: uppercase;
+            .custom-btn {
+                width: 130px;
+                height: 40px;
+                color: #fff;
+                border-radius: 5px;
+                padding: 10px 25px;
+                font-family: "Lato", sans-serif;
+                font-weight: 500;
+                background: transparent;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                position: relative;
+                display: inline-block;
+                box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+                    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+                outline: none;
+            }
+            .btn-12 {
+                position: relative;
+                right: 20px;
+                bottom: 20px;
+                border: none;
+                box-shadow: none;
+                width: 130px;
+                height: 40px;
+                line-height: 42px;
+                -webkit-perspective: 230px;
+                perspective: 230px;
+                padding-bottom: 50px;
+            }
+            .btn-12 span {
+                background: rgb(0, 172, 238);
+                background: linear-gradient(0deg, rgba(0, 172, 238, 1) 0%, rgba(2, 126, 251, 1) 100%);
+                display: block;
+                position: absolute;
+                width: 130px;
+                height: 40px;
+                box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+                    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+                margin: 0;
+                text-align: center;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                -webkit-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+            .btn-12 span:nth-child(1) {
+                box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002,
+                    4px 4px 5px 0px #0001;
+                -webkit-transform: rotateX(90deg);
+                -moz-transform: rotateX(90deg);
+                transform: rotateX(90deg);
+                -webkit-transform-origin: 50% 50% -20px;
+                -moz-transform-origin: 50% 50% -20px;
+                transform-origin: 50% 50% -20px;
+            }
+            .btn-12 span:nth-child(2) {
+                -webkit-transform: rotateX(0deg);
+                -moz-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+                -webkit-transform-origin: 50% 50% -20px;
+                -moz-transform-origin: 50% 50% -20px;
+                transform-origin: 50% 50% -20px;
+            }
+            .btn-12:hover span:nth-child(1) {
+                box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+                    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+                -webkit-transform: rotateX(0deg);
+                -moz-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+            }
+            .btn-12:hover span:nth-child(2) {
+                box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5), 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+                    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+                color: transparent;
+                -webkit-transform: rotateX(-90deg);
+                -moz-transform: rotateX(-90deg);
+                transform: rotateX(-90deg);
+            }
+            .btncancel {
+                max-width: 600px;
+                text-align: center;
+
+                button {
+                    outline: none;
+                    border: none;
+                    cursor: pointer;
+                    border-radius: 0;
+                }
+                .btn {
+                    display: inline-block;
+                    background-color: transparent;
+                    font-family: $dosis;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: $black;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    height: 50px;
+                    line-height: 50px;
+                    margin-right: 25px;
+                    padding: 0 50px;
+                    border: none;
+                    border-right: 1px solid $black;
+                    position: relative;
+                    transition: color 0.2s ease-in-out 0s;
+
+                    &:before,
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                    }
+
+                    &:before {
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: $white;
+                        z-index: -1;
+                    }
+
+                    &:after {
+                        right: -1px;
+                        width: 1px;
+                        height: 50px;
+                        background-color: $black;
+                        transform: rotate(-90deg);
+                        transform-origin: center;
+                        z-index: 0;
+                        transition: width 0.3s ease-in-out, transform 0.2s ease-in-out 0.3s, z-index 0.15s ease-in-out;
+                    }
+
+                    &:hover {
+                        color: $white;
+                        transition: color 0.2s ease-in-out 0.25s;
+
+                        &:after {
+                            z-index: -1;
+                            transform: rotate(0deg);
+                            width: 100%;
+                            transition: transform 0.2s ease-in-out, width 0.3s ease-in-out 0.2s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+a {
+    border: 0px;
+    outline-style: none;
+}
+h3 {
+    color: #ff6600;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: blink;
+    padding: 200px 0px 0px 0px;
+}

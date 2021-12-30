@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" href="js/main.js">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.timers.js"></script>
+    <title>SNAKE</title>
+</head>
+
+<body>
+    <div id=container>
+        
+
+        <div class="title">
+            <ol class="snow-bros">
+                <li class="s"></li>
+                <li class="n"></li>
+                <li class="a"></li>
+                <li class="k"></li>
+                <li class="e"></li>
+                <li class="g"></li>
+                <li class="a"></li>
+                <li class="m"></li>
+                <li class="e"></li>
+            </ol>
+        </div>
+        <img id="picsnake" src="./img/bg.png" alt="" , width="435px" height="500px" style="float: left;">
+        
+
+        <div id="startGame">
+            <canvas id="canvas" width="400" height="400">
+                <img id="food" src="./img/apple.png" alt="" style=" background-size: contain; display: none;">
+                <img id="boom" src="./img/boom.png" alt="" style=" background-size: contain; display: none;">
+                <img id="head" src="./img/head.png" alt="" style=" background-size: contain; display: none;">
+                <img id="walls" src="./img/walls.png" alt="" style=" background-size: contain; display: none;">
+                
+            </canvas>
+            <div id="results">
+                <h2>Kết quả</h2>
+                <p>
+                    <strong>Điểm:</strong>
+                    <span id="points">0</span>
+                </p>
+                <p>
+                    <strong>Level:</strong>
+                    <span id="level">1</span>
+                </p>
+                <h2 class="next">Tùy chọn</h2>
+                <!-- <img id="play" class="png-bg" src="img/play-icon.png" alt="Play" title="Play" /> -->
+                <!-- <img id="cancel" class="png-bg" src="./img/cancel-game-icon.png" alt="Cancel" title="Cancel" /> -->
+                <a id="new" href="snake.html" title="New game"><img  class="png-bg" src="img/new-game-icon.png"
+                        alt="New game" /></a>
+                <h2 class="next">Hướng dẫn</h2>
+                <p>
+                    <strong>&#8594;</strong>
+                    <span id="points">qua phải</span>
+                </p>
+                <p>
+                    <strong>&#8592;</strong>
+                    <span id="points">qua trái</span>
+                </p>
+                <p>
+                    <strong>&#8593;</strong>
+                    <span id="points">đi lên</span>
+                </p>
+                <p>
+                    <strong>&#8595;</strong>
+                    <span id="points">đi xuống</span>
+                </p>
+            </div>
+        </div>
+        <div class="img-baby-g-about"></div>
+        <div id="menu">
+            <div id="start">
+                <a href="#" class="btn">
+                    <span class="btn-label">Chơi ngay</span>
+                </a>
+            </div>
+
+        </div>
+        <div id="level_show">
+            <button class="level1 custom-btn btn-12"><span>CHƠI NGAY !</span><span>CẤP ĐỘ 1</span></button>
+            <button class="level2 custom-btn btn-12"><span>CHƠI NGAY !</span><span>CẤP ĐỘ 2</span></button>
+            <button class="level3 custom-btn btn-12"><span>CHƠI NGAY !</span><span>CẤP ĐỘ 3</span></button>
+            <button class="level4 custom-btn btn-12"><span>CHƠI NGAY !</span><span>CẤP ĐỘ 4</span></button>
+            <button class="level5 custom-btn btn-12"><span>CHƠI NGAY !</span><span>CẤP ĐỘ 5</span></button>
+            <div class="btncancel">
+                <button class="btn">QUAY LẠI</button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
